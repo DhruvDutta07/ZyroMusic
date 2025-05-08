@@ -31,7 +31,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002155818429))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7638720582))
+OWNER_ID = 6138142369
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -59,8 +59,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Zyro_Network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+HP8Ug5n1jXIyOTU9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MidexozBotUpdates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/midexozsupportchat")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -92,7 +92,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 
 
 # -----------------------------------------------------------------------------------
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 50))
 # ------------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------------
@@ -134,13 +134,13 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ghaqbv.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/b65vy7.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/ghaqbv.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/5whe9y.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/ghaqbv.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/ghaqbv.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/5whe9y.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ghaqbv.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ghaqbv.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/ghaqbv.jpg"
